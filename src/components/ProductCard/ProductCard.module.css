@@ -1,0 +1,20 @@
+.fadeHidden {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fadeShow {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card {
+  height: 100%;
+}
+
+.cardImg {
+  width:50%;
+  height: 250px;
+  object-fit:cover;
+}

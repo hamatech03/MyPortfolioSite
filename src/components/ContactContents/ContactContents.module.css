@@ -1,0 +1,29 @@
+.aboutRowLeft,.aboutRowRight {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+}
+
+.fadeHidden {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fadeShow {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+@media (max-width: 768px) {
+  .aboutRowLeft {
+    flex-direction: column-reverse;
+    align-items: flex-center;
+  }
+  .aboutRowRight {
+        flex-direction: column;
+    align-items: flex-center;
+  }
+}
