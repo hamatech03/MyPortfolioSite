@@ -10,24 +10,22 @@ export const ROUTES = {
 
 //画像
 
-import dummy from "./assets/websiteplanet-dummy-400X300.png";
-import topimg from "./assets/toppageimg.jpg";
-import me from "./assets/meimg.png";
-import osake from "./assets/osakeimg.jpg";
-import meguri from "./assets/meguriimg.jpg";
-import musicimg from "./assets/musicimg.jpg";
-import djimg from "./assets/djimg.jpg";
-import dtmimg from "./assets/dtmimg.jpg";
-import movieimg from "./assets/animemovieimg.jpg";
+import topimg from "./assets/toppageimg.webp";
+import me from "./assets/meimg.webp";
+import osake from "./assets/osakeimg.webp";
+import meguri from "./assets/meguriimg.webp";
+import musicimg from "./assets/musicimg.webp";
+import djimg from "./assets/djimg.webp";
+import dtmimg from "./assets/dtmimg.webp";
+import movieimg from "./assets/animemovieimg.webp";
 
 // product画像
-import myportfolioimg from "./assets/productimg/myportfolio.jpg";
-import sandboximg from "./assets/productimg/sandbox.jpg";
-import musicplayerimg from "./assets/productimg/music-player.jpg";
+import myportfolioimg from "./assets/productimg/myportfolio.webp";
+import sandboximg from "./assets/productimg/sandbox.webp";
+import musicplayerimg from "./assets/productimg/music-player.webp";
 
 
 export const IMAGES = {
-    DUMMY: dummy,
     TOPIMG: topimg,
     ME: me,
     OSAKE: osake,
