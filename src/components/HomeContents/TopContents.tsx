@@ -32,7 +32,7 @@ export default function TopContents() {
     <>
     <div className={styles.fadeHidden}>
       <Image src={IMAGES.TOPIMG} fluid
-      className="d-block mx-auto mb-5 shadow-lg" style={{width:"800px", height:"auto"}} />
+      className="d-block mx-auto mb-5 shadow-lg" style={{width:"600px", height:"auto"}} />
       <NewsList />
     </div>
     </>
