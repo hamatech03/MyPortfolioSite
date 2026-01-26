@@ -12,7 +12,7 @@ export default function MyProductsPage() {
 
     <Row xs={1} sm={2} md={3} lg={3} className="g-5 justify-content-center mx-auto">
         <Col><ProductCard title="music-player" status="自作曲を実装したシンプルな音楽プレーヤー" img={IMAGES.MUSICPLAYER} 
-        link01="https://react-audio-player-xi.vercel.app/"
+        link01="https://audio-player-ih-jf.vercel.app/"
         link02="https://github.com/hamatech03/react-audio-player" /></Col>
         
         <Col><ProductCard title="react-study-sandbox" status="学習用に作った実験環境" img={IMAGES.SANDBOX} 
