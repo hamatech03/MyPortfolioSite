@@ -45,12 +45,15 @@ PC業務の効率化・自動化への関心から、最初の言語としてPyt
         <img src={IMAGES.ME} style={{ width: "300px", height: "auto"}} className="shadow-lg"/>
     </div>
 
-    {/* 趣味1 */}
-<div>
-    <h3 className={`${styles.fadeHidden} text-center`} style={{marginTop:"40px",marginBottom:"40px"}}>趣味&好きなもの</h3>4
-      </div>
 
-<div>
+
+  <div>
+    <h3 className={`${styles.fadeHidden} text-center`} style={{marginTop:"100px",marginBottom:"100px"}}>趣味&好きなもの</h3>
+  </div>
+
+
+
+
     <div className={`${styles.aboutRowRight} ${styles.fadeHidden}`}>
         <img src={IMAGES.OSAKE} style={{ width: "300px", height: "auto"}} className="shadow-lg"/>
         <div>
@@ -61,7 +64,7 @@ PC業務の効率化・自動化への関心から、最初の言語としてPyt
           (お酒のあては海鮮が好きです。)
         </div>
     </div>
-</div>
+
 
         {/* 趣味2 */}
 
