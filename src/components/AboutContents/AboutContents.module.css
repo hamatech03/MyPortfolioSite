@@ -20,10 +20,10 @@
 @media (max-width: 768px) {
   .aboutRowLeft {
     flex-direction: column-reverse;
-    align-items: flex-center;
+    align-items: center;
   }
   .aboutRowRight {
         flex-direction: column;
-    align-items: flex-center;
+    align-items: center;
   }
 }
