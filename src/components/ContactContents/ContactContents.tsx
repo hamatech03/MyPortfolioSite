@@ -18,7 +18,7 @@ const email = `${user}@${domain}`;
           }
         });
       },
-      { threshold: 0.5 }
+      { threshold: 0.2 }
     );
 
     targets.forEach(target => observer.observe(target));

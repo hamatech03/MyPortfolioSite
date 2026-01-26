@@ -23,7 +23,7 @@ export default function ProductCard({title, status, img, link01, link02 }:Produc
           }
         });
       },
-      { threshold: 0.5 }
+      { threshold: 0.2 }
     );
 
     targets.forEach(target => observer.observe(target));

@@ -29,7 +29,7 @@ export default function SkillCard  ({ title, level, status }: SkillCardProps) {
           }
         });
       },
-      { threshold: 0.5 }
+      { threshold: 0.2 }
     );
 
     targets.forEach(target => observer.observe(target));
