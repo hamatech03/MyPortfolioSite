@@ -39,7 +39,8 @@ export default function AboutContents() {
 1994年5月11日生まれ。広島県出身。現在（2026年時点）は京都在住。<br />
 手に職をつけたくなり、2025年よりプログラミング学習を開始。<br />
 PC業務の効率化・自動化への関心から、最初の言語としてPythonを選択。<br />
-現在はReactを中心としたフロントエンド技術の習得に挑戦中。<br />
+その後、Reactを中心としたフロントエンド技術の学習にも取り組む。<br />
+現在はITの基礎知識を体系的に身につけるため、基本情報技術者試験の資格取得を目指して学習中。<br />
 (画像は生成AI)
         </div>
         <img src={IMAGES.ME} style={{ width: "300px", height: "auto"}} className="shadow-lg"/>
