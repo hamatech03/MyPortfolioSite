@@ -24,8 +24,10 @@ export default function MyProductsPage() {
         <Col><ProductCard title="当サイト" status="私が初めてReactで作成したプロジェクト" img={IMAGES.MYPORTFOLIO} 
         link01={ROUTES.TOP}
         link02="https://github.com/hamatech03/MyPortfolioSite"/></Col>
-        {/* ↓は空の要素。product追加時に消すこと */}
-        <Col><span></span></Col>
+        <Col><ProductCard title="酔いどれトピックス" status="Reactで作成した話題提供アプリ" img={IMAGES.YOIDORE} 
+        link01="https://yoidore-topics.vercel.app/"
+        link02="https://github.com/hamatech03/yoidore-topics"/></Col>
+        
     </Row>
 
 

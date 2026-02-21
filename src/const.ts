@@ -23,6 +23,7 @@ import movieimg from "./assets/animemovieimg.webp";
 import myportfolioimg from "./assets/productimg/myportfolio.webp";
 import sandboximg from "./assets/productimg/sandbox.webp";
 import musicplayerimg from "./assets/productimg/music-player.webp";
+import yoidore_topicsimg from "./assets/productimg/yoidore-topics.webp"
 
 
 export const IMAGES = {
@@ -39,4 +40,5 @@ export const IMAGES = {
     MYPORTFOLIO: myportfolioimg,
     SANDBOX: sandboximg,
     MUSICPLAYER: musicplayerimg,
+    YOIDORE: yoidore_topicsimg,
 }as const;
