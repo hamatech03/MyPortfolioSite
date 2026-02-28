@@ -41,7 +41,9 @@ export default function AboutContents() {
 PC業務の効率化・自動化への関心から、最初の言語としてPythonを選択。<br />
 その後、Reactを中心としたフロントエンド技術の学習にも取り組む。<br />
 現在はITの基礎知識を体系的に身につけるため、基本情報技術者試験の資格取得を目指して学習中。<br />
-(画像は生成AI)
+(画像は生成AI)<br />
+<a href="https://github.com/hamatech03" target="_blank" rel="noopener noreferrer">
+github</a>
         </div>
         <img src={IMAGES.ME} style={{ width: "300px", height: "auto"}} className="shadow-lg"/>
     </div>
